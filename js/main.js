@@ -15,3 +15,26 @@ const cargarCategorias = () => {
     });
 };
 cargarCategorias();
+
+
+
+const cargarProductos = () => {
+    const contenedor = document.getElementById("products");
+    contenedor.innerHTML =``;
+    productos.forEach(prod =>{
+
+        const article = document.createElement("article");
+        const h3 = document.createElement("h3");
+        h3.textContent = prod.nombre;
+        const img = document.createElement("img");
+        img.src = prod.imagen;
+        const p = document.createElement("p");
+        p.textContent = prod.descripcion;
+        const precio = document.createElement("p");
+        precio.innerHTML = `<strong>$${prod.precio}</strong>`;
+        const button = document.createElement("button");
+        button.textContent = "Agregar al Carrito";
+    });
+};
+
+cargarProductos();
