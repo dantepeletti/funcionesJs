@@ -34,6 +34,13 @@ const cargarProductos = () => {
         precio.innerHTML = `<strong>$${prod.precio}</strong>`;
         const button = document.createElement("button");
         button.textContent = "Agregar al Carrito";
+
+        article.appendChild(h3);
+        article.appendChild(img);
+        article.appendChild(p);
+        article.appendChild(precio);
+        article.appendChild(button);
+        contenedor.appendChild(article);
     });
 };
 
