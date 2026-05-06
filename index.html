@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>My Food Store</title>
 </head>
 <body>
@@ -13,47 +13,29 @@
             <h1>My Food Store</h1>
         </div>
         <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#products">Mis Pedidos</a></li>
-                <li><a href="#about">Carrito</a></li>
+            <ul id="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mis Pedidos</a></li>
+                <li><a href="#">Carrito</a></li>
                 <li><a href="admin.html">Panel Admin</a></li>
             </ul>
         </nav>
     </header>
     <hr>
     <aside>
-        <ul>
-            <li><a href="#">Hamburguesas</a></li>
-            <li><a href="#">Pizzas</a></li>
-            <li><a href="#">Bebidas</a></li>
-            <li><a href="#">Comida Vegetariana</a></li>
-            <li><a href="#">Postres</a></li>
+        <ul id="categorias">
         </ul>
     </aside>
     <hr>
     <main>
         <section>
             <h3>Buscador Food Strore</h3>
-            <form>
+            <form id="buscador">
                 <input type="search" name="busqueda" placeholder="Encuentre su comida...">
                 <button type="submit">Buscar</button>
             </form>
         </section>
-        <article>
-            <h3>Chess Burger</h3>
-            <img src="img/cheese_burger.jpg" alt="Cheese Burger">
-            <p>Una deliciosa hamburguesa con doble de queso fundido.</p>
-            <p><strong>$12.99</strong></p>
-            <button>Agregar al Carrito</button>
-        </article>
-        <article>
-            <h3>Burger Vegana</h3>
-            <img src="img/hamburguesa_vegana.avif" alt="Vegan Burger" style="width: 250px;">
-            <p>Una deliciosa hamburguesa con doble de queso fundido.</p>
-            <p><strong>$15.99</strong></p>
-            <button>Agregar al Carrito</button>
-        </article>
+        <section id="products"></section>
     </main>
     <hr>
 
