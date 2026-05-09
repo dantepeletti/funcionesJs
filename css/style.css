@@ -14,6 +14,17 @@ body {
     padding: 0;
 }
 
+/*Header*/
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
 .container {
     display: flex;
     justify-content: center;
