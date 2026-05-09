@@ -4,7 +4,7 @@ const productos = [
         nombre: "Chess Burger",
         descripcion: "Una deliciosa hamburguesa con doble de queso fundido.",
         precio: 12.99,
-        imagen: "img/cheese_burger.jpg",
+        imagen: "./public/img/cheese_burger.jpg",
         categoria: "Hamburguesas"
     },
     {
@@ -12,7 +12,7 @@ const productos = [
         nombre: "Burger Vegana",
         descripcion: "Una deliciosa hamburguesa con doble de queso fundido.",
         precio: 14.99,
-        imagen: "img/hamburguesa_vegana.avif",
+        imagen: "./public/img/hamburguesa_vegana.avif",
         categoria: "Hamburguesas"
     },
     {
@@ -20,7 +20,7 @@ const productos = [
         nombre: "Pizza Pepperoni",
         descripcion: "Una pizza clásica con pepperoni y queso fundido.",
         precio: 18.99,
-        imagen: "img/pizza_pepe.jpeg",
+        imagen: "./public/img/pizza_pepe.jpeg",
         categoria: "Pizzas"
     },
     {
@@ -28,7 +28,7 @@ const productos = [
         nombre: "Coca Cola",
         descripcion: "Una bebida refrescante y deliciosa.",
         precio: 2.99,
-        imagen: "img/coca.jpg",
+        imagen: "./public/img/coca.jpg",
         categoria: "Bebidas"
     },
     {
@@ -36,7 +36,7 @@ const productos = [
         nombre: "Helado de Chocolate",
         descripcion: "Un delicioso helado de chocolate cremoso.",
         precio: 3.99,
-        imagen: "img/helado_choco.jpg",
+        imagen: "./public/img/helado_choco.jpg",
         categoria: "Postres"
     }
 ];
